@@ -331,3 +331,72 @@ form input {
 .Message {
   height: 70px;
 }
+/* Thanks Page */
+/* body {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#thankyou {
+  background-color: white;
+  border-radius: 10px;
+  height: 190px;
+  width: 300px;
+  border: 6px solid rgb(71, 188, 255);
+  box-shadow: 7px 7px 4px #4999b6;
+  margin: 250px auto 50px;
+  text-align: center;
+  -webkit-animation: flash 1.2s ease 0s infinite;
+  animation: flash 1.2s ease 0s infinite;
+}
+
+#h2thankyou {
+  color: #4999b6;
+  padding: 32px;
+  font-size: 44px;
+  font-family: "Open Sans", "sans-serif";
+  -webkit-animation: flashtwo 1.2s linear 0s infinite;
+  animation: flashtwo 1.2s linear 0s infinite;
+}
+a {
+  text-decoration: none;
+  color: #4999b6;
+}
+
+#linkback:hover {
+  background-color: rgb(71, 188, 255);
+}
+
+a:hover {
+  color: white;
+}
+
+@keyframes flash {
+  0% {
+    background-color: white;
+  }
+  49% {
+    background-color: white;
+  }
+  50% {
+    background-color: rgb(71, 188, 255);
+  }
+  100% {
+    background-color: rgb(71, 188, 255);
+  }
+}
+
+@keyframes flashtwo {
+  0% {
+    color: rgb(71, 188, 255);
+  }
+  49% {
+    color: rgb(71, 188, 255);
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+} */
