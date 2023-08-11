@@ -20,8 +20,9 @@
     <h2 style="text-align: center">Please fill the Form</h2>
 
     <form
+      name="haha1"
       method="POST"
-      action="https://script.google.com/macros/s/AKfycbxj-Q7HbMXdKId1Ntrq0IowpMJqJJj8sCCZTJOz6qzSzKbEFs2bfWohigwx5Ym5Ld-O-g/exec"
+      action=""
     >
       <input name="Name" type="text" placeholder="Name" required />
 
@@ -34,5 +35,16 @@
       <button type="submit">Submit</button>
     </form>
     <div class="footer">Copyright © 2023. All rights are reserved</div>
+
+    <script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxj-Q7HbMXdKId1Ntrq0IowpMJqJJj8sCCZTJOz6qzSzKbEFs2bfWohigwx5Ym5Ld-O-g/exec'
+    const form = document.forms['haha1']
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+     .then(() => {  window.location.replace("thanks.html"); })
+    .catch(error => console.error('Error!', error.message))
+    })
+    </script>
   </body>
 </html>
